@@ -1,0 +1,36 @@
+.SignatureMain {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+
+}
+/* .SignatureMain > .leftSection{
+    border: 1px solid red;
+} */
+.leftSection{
+    margin-bottom: 10px;
+}
+.SignatureMain > .leftSection >.img{
+     height: 288px;
+     width: 433px;
+}
+.SignatureMain > .leftSection > .p{
+     font-size: 14px;
+     line-height: 22px;
+     color: #989898;
+     margin: 12px 0;
+}
+.SignatureMain > .Signature{
+     font-size: 16px;
+     line-height: 29px;
+}
+.SignatureMain >.leftImg{
+    height: 546px;
+    width: 620px;
+    padding-bottom: 95px;
+    border-radius: 5px;
+    filter :brightness( 67% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg )
+}

@@ -1,0 +1,27 @@
+.feedback-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feedback-text{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: grey;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.feedback-text span{
+    /* padding: 5rem; */
+}
+
+.feed-text{
+    color: grey;
+}
+/* hr{
+    border-bottom: 1px solid rgb(224, 224, 210);
+    width: 80%;
+    text-align: center;
+    opacity: 1;
+} */

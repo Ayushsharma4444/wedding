@@ -1,0 +1,106 @@
+/* .MainDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 75%;
+    border: 2px solid red;
+    height: 642px;
+    background-color: black;
+    color: white;
+} */
+/* .TopSection >.TopSectionChild>.text> .h2{
+    height: 36px;
+    width: 55%;
+    border: 1px solid red;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #989898;
+    
+} */
+
+/* .TopSection >.TopSectionChild >.text> .h1{
+    width: 55%;
+    border:1px solid rebeccapurple;
+    height: 144px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+} */
+ 
+/* .TopSection >.TopSectionChild > .explore-now-btn {
+    padding: 37px 0 0 10px;
+} */
+
+/* .TopSection >.TopSectionChild > .explore-now-btn >.span {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 1px;
+    padding:16px 29px 16px 29px ;
+    height: 44px;
+    width: 149px;
+    border: 1px solid #c48f56;
+    border-radius: 4px;
+} */
+
+/* .TopSection >.TopSectionChild > .explore-now-btn >.span:hover{
+     background-color: #c48f56;
+}
+.TopSection >.Rightimg>.img{
+    width: 300px;
+    height: 500px;
+} */
+
+.Container {
+    margin: 0 10%;
+    height: 642px;
+    position: relative;
+}
+.Rightimg> .img{
+    width: 74%;
+    height: 642px;
+    object-fit: cover;
+    text-align: right;
+    float: right;
+}
+.leftContent {
+    position: absolute;
+    top: 200px;
+}
+.leftContent >.text >.h2 {
+    height: 36px;
+    width: 55%;
+    /* border: 1px solid red; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #989898;
+}
+.leftContent >.text >.h1{
+    width:auto;
+    /* border:1px solid rebeccapurple; */
+    height: 144px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.leftContent > .explore-now-btn {
+    margin: 40px 0 0 15px;
+}
+.leftContent >.explore-now-btn >.span {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 1px;
+    padding:16px 29px 16px 29px ;
+    height: 44px;
+    width: 149px;
+    border: 1px solid #c48f56;
+    border-radius: 4px;
+}
+.leftContent >.explore-now-btn >.span:hover{
+    background-color: #c48f56;
+} 
+

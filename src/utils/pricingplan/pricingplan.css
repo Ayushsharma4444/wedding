@@ -1,0 +1,77 @@
+.pricing-head{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+    color: #ffff;
+    font-weight: bold;
+}
+.pricing-head span{
+    color: #c48f56;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+    justify-content: center;
+  }
+  .dollar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #i {
+    margin-bottom: 50px;
+  }
+  .parentCard {
+    background-image: url("https://promo-theme.com/novo-elementor-kit/wp-content/uploads/2021/10/Lines-BG.png");
+    background-repeat: repeat-x;
+    background-size: 64% auto;
+    opacity: 1;
+    background-color: #0e0e0e;
+    padding: 45px 26px 45px 26px;
+    color: white;
+    border-style: none;
+    border-width: 1px 1px 1px 1px;
+    /* border-color: #363636; */
+    /* border-radius: 0px; */
+  }
+  .card {
+    border: 1px solid #363636;
+  
+    padding: 45px 26px 45px 26px;
+    background-color: black;
+    height: 500px;
+  }
+  .horizontal {
+    width: 90%;
+    color: aqua !important;
+    border: 1px solid #c48f56 ;
+  }
+  .G {
+    font-size: 25px;
+  }
+  .items {
+    margin-bottom: 15px;
+  
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #6d6d6d;
+    border-bottom: 1px solid rgba(9, 9, 9, 0.04);
+  }
+  .card h2 {
+    margin-bottom: 10px;
+    font-size: 38px;
+  }
+  .p {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .Order-btn {
+    border: 1px solid goldenrod;
+    border-radius: 1pz;
+    padding: 10px 25px;
+  }
+  

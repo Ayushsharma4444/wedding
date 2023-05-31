@@ -1,0 +1,83 @@
+.latestProjects{
+    margin: 2% 10%;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.latestProjects >.h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.latestProjects > .h1 > .h1Span {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color:#C48f56;
+}
+.latestProjects >.Typelist {
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.latestProjects > .Typelist >.topicType {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 0px 20px 0px 20px;
+    margin: 5px 5px 0px 5px;
+    cursor: pointer;
+}
+.latestProjects > .Typelist >.topicType:hover{
+    color:#C48f56
+}
+
+.PhotosSample {
+    margin: 0 10%;
+    /* display: flex; */
+}
+.PhotosSample > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.PhotosSample >  .container> .LeftImg > .img1{
+    height: 366px;
+    width: 98%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.PhotosSample >  .container> .LeftImg > .img2{
+    height: 648px;
+    width: 98%;
+    border: 1px solid red;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.PhotosSample > .container > .LeftImg > .img3 {
+    height: 635px;
+    width: 98%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.PhotosSample >  .container> .RightImg> .img1 {
+    height: 823px;
+    width: 98%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.PhotosSample >  .container >.RightImg > .img2 {
+    height:366px ;
+    width: 98%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.PhotosSample >  .container > .RightImg >.img3{
+    height: 366px;
+    width: 98%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+

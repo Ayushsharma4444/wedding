@@ -1,0 +1,31 @@
+.touch-container{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5rem;
+}
+.bold{
+    color: grey;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 900;
+
+}
+.touch-container h2{
+    color: whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+}
+.footer{
+    background-color: black;
+}
+.footer hr{
+ color: white;
+ width: 100%;
+}
+.footer p{
+    color: rgb(175, 171, 171);
+    text-align: center;
+    padding: 2rem;
+}
+   
